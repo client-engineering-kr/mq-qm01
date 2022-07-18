@@ -78,9 +78,9 @@ template:
   pod:
     containers:
     - name: qmgr
-      # env:
-      # - name: MQSNOAUT
-      #   value: "yes"
+       env:
+       - name: MQSNOAUT
+         value: "yes"
 
 configmap:
   path: config
