@@ -94,8 +94,8 @@ terminationGracePeriodSeconds: 30
 tracing:
   agent: {}
   collector: {}
-  enabled: false
-  namespace: ""
+  enabled: true
+  namespace: "tools"
 
 security: false
 
